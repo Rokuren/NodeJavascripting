@@ -1,2 +1,4 @@
 # NodeSchool
-Tutorials 
+Tutorials
+-Javascripting: Done
+-Learnyounode: Starting 
