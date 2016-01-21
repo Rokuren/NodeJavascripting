@@ -1,7 +1,7 @@
 {
-  "name": "tutorial",
-  "version": "1.0.0",
-  "description": "starting a project",
+  "name": "@rokuren/howtonpm",
+  "version": "1.0.2",
+  "description": "tutorial",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -11,12 +11,6 @@
   ],
   "author": "rokuren",
   "license": "ISC",
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "."
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

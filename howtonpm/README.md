@@ -1,1 +1,1 @@
-Hello, this is a random readme for a node.js tutorial
+This is the how-to-npm tutorial

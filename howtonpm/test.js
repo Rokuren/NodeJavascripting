@@ -1,13 +1,4 @@
-console.log("Hello World");
-
-var arr = [{name: "Amuro", ms: "Gundam RX-78-2"}, {name: "Char", ms: "Gelgoog"}];
-
-arr.forEach(function(pilot) {
-  pilot.greeting = function() {
-    console.log("Hello, I'm " + pilot.name + " pilot of the " + pilot.ms);   
-  };
-});
-
-arr.forEach(function (pilot) {
-  pilot.greeting();
+var pilots = [{name: "Amuro", ms: "RX-78-2 Gundam"}, {name: "Char", ms: "Zeong"}];
+pilots.forEach(function(pilot) {
+  console.log("Hi I'm " + pilot.name + " pilot of the " + pilot.ms);
 });
