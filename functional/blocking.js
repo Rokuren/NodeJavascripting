@@ -10,6 +10,8 @@ function repeat(operation, num) {
   // recommended to use setTimeout(func, delay) instead of code
   setTimeout(function () {
     repeat(operation, --num);
+    // official solution sets timeout every 10; if faster than timeout so 
+    //  more operations
   }, 1);
 } 
 
