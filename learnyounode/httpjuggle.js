@@ -3,7 +3,7 @@ var bl = require('bl');
 // three URLs, need to print output in order 
 var array = [];
 // count callbacks
-// checking array outside of the functions doesn't see data. scope
+// checking array outside of the functions doesn't see data. scope & async
 var callbacks = 0;
 function get(i) {
   http.get(process.argv[2 + i], function callback(response) {
